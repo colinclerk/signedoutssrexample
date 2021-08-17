@@ -14,7 +14,7 @@ export default function Home() {
 export async function getServerSideProps(ctx) {
   return {
     props: {
-      guaranteedSignedOut: !ctx.req.cookies.__session,
+      guaranteedSignedOut: !ctx.req.cookies.ajs_user_id,
     },
   };
 }
