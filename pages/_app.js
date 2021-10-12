@@ -71,6 +71,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ClerkProvider
       frontendApi="clerk.b1mvy.zxnpf.lcl.dev"
+      authVersion={2}
       navigate={(to) => router.push(to)}
     >
       {privatePages.includes(router.pathname) ? (

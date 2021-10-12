@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <meta name="test" content="test" />
       </Head>
-      This page should SSR
+      This page should SSR when signed out.
     </div>
   );
 }
@@ -14,7 +14,7 @@ export default function Home() {
 export async function getServerSideProps(ctx) {
   return {
     props: {
-      guaranteedSignedOut: !ctx.req.cookies.ajs_user_id,
+      guaranteedSignedOut: !ctx.req.cookies.__session,
     },
   };
 }

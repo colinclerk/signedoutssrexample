@@ -54,17 +54,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@clerk/clerk-react@^1.14.0":
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/@clerk/clerk-react/-/clerk-react-1.14.0.tgz#34da6e7f2c30d93af3b6739e58d67673840aa1da"
-  integrity sha512-rgBElF5CytC3Yu6jXAddcAwIV5DhKr3AoPkjmyavakHTxZu7gVKXLVspvnoUeqP6I2G0Ejfri2Rs9CyBbqy55w==
+"@clerk/clerk-react@^1.22.0":
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/@clerk/clerk-react/-/clerk-react-1.22.0.tgz#97d0fbd9a0b9b2bbb89cc7a89df4f3a9fcfa9336"
+  integrity sha512-hNFEFBbNIGHG/kBd1k0C3AuoiFuyPkTWfUpirid4RfghBFttOcgGNijqLamoahTCLW0KwGTZgBL/ut8VonRndQ==
   dependencies:
-    "@clerk/types" "1.5.0"
+    "@clerk/types" "1.14.0"
 
-"@clerk/types@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@clerk/types/-/types-1.5.0.tgz#aa5ac5a68bdb80fb9e340d29b8ee2af395000bd6"
-  integrity sha512-VhSEUtPrQ07cxwd8BPBCpqEBeqIYUv6wB3gsu+VU8XowyzmMLg5yW5mgaJyCvYfL2Zjqe6eAZPHFeZnq8w1goA==
+"@clerk/types@1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@clerk/types/-/types-1.14.0.tgz#140c08b63bc2891ed3c675cfa2e2982c888cb59b"
+  integrity sha512-uvBmz4Ru3YraeZHrSW97kSg+noRUzcRtYH17PMEAz54Ypg0qNvP7laviyzEk66evlhOpShGYtJ1DBC0FrmSlNg==
 
 "@eslint/eslintrc@^0.4.2":
   version "0.4.2"
